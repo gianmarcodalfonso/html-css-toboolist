@@ -6,9 +6,24 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 body {
+  background-color: gray;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+/* Utility */
+
+.d-inline-block {
+  display: inline-block;
+}
+
+/* Header */
 
 h1 {
   font-size: 3rem;
@@ -16,20 +31,37 @@ h1 {
 
 }
 
-#main-header .top-bar {
+.top-bar {
   height: 100px;
   line-height: 100px;
   vertical-align: middle;
+  background-color: white;
+  margin-bottom: 50px;
+  padding: 0 20px;
 }
 
 #main-header .top-bar .d-inline-block {
   vertical-align: middle;
 }
 
-.d-inline-block {
-  display: inline-block;
+.cta-section {
+  background-color: white;
+  padding: 15px 45px;
+  border-radius: 10px 10px 0 0;
 }
 
-#page-main {
-  background-color: #F6F8FA;
+.cta {
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.cta.task {
+  background-color: blue;
+  color: white;
+}
+
+.cta.section {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
 }
