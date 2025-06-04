@@ -28,11 +28,15 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: bold;
+}
 
+span {
+  font-size: 1.2rem;
 }
 
 li {
   list-style-type: none;
+  margin: 15px;
 }
 
 .top-bar {
@@ -73,6 +77,46 @@ li {
 
 #ul-section {
   background-color: white;
-  padding: 15px 45px;
+  padding: 45px 45px;
   border-radius: 0 0 10px 10px;
+}
+
+.check {
+
+  border-radius: 100%;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+
+.check.true {
+  color: green;
+  border: 1px solid green;
+}
+
+.check.false {
+  color: red;
+  border: 1px solid red;
+}
+
+.subject-box {
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.editorial {
+  background-color: blue;
+}
+
+.q1-goals {
+  background-color: pink;
+}
+
+.recruiting {
+  background-color: green;
+}
+
+.mobile {
+  background-color: orange;
 }
