@@ -5,3 +5,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+#main-header .top-bar {
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+#main-header .top-bar .d-inline-block {
+  vertical-align: middle;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+#page-main {
+  background-color: #F6F8FA;
+}
